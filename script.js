@@ -19,7 +19,7 @@ function SportsCar(make, model, topSpeed) {
 
 // Inherit Car prototype methods
 // SportsCar.prototype = Object.create(Car.prototype);
-Object.setPrototypeof(SportsCar.prototype, Car.prototype)
+Object.setPrototypeOf(SportsCar.prototype, Car.prototype)
 
 // Method added to SportsCar prototype
 SportsCar.prototype.getTopSpeed = function () {
